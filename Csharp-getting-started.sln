@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer-operation", "Intege
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "declaration-string", "declaration-string\declaration-string.csproj", "{B51E161A-360C-43B8-940D-07D6323EF5A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "declaration-string-practice", "declaration-string-practice\declaration-string-practice.csproj", "{5C77F9DB-AC2E-4268-A0B4-63F82590A124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B51E161A-360C-43B8-940D-07D6323EF5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B51E161A-360C-43B8-940D-07D6323EF5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B51E161A-360C-43B8-940D-07D6323EF5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C77F9DB-AC2E-4268-A0B4-63F82590A124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C77F9DB-AC2E-4268-A0B4-63F82590A124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C77F9DB-AC2E-4268-A0B4-63F82590A124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C77F9DB-AC2E-4268-A0B4-63F82590A124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
