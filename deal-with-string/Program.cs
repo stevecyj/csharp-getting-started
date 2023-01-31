@@ -1,4 +1,19 @@
-﻿/*string newsContent = "衛生署今天下午將召開記者會, 今天本土確診人數0人, 境外移入確診人數0人, 請大家繼續保持下去, 隨時洗手";
+﻿void trimWhiteSpace(string originValue)
+{
+    if (originValue == null) originValue = string.Empty;
+
+    string trimLeft = originValue.TrimStart();
+    string trimRight = originValue.TrimEnd();
+    string trimResult = originValue.Trim();
+    
+    Console.WriteLine(trimLeft);
+    Console.WriteLine(trimRight);
+    Console.WriteLine(trimResult);
+}
+trimWhiteSpace("  abc def    ");
+
+
+/*string newsContent = "衛生署今天下午將召開記者會, 今天本土確診人數0人, 境外移入確診人數0人, 請大家繼續保持下去, 隨時洗手";
 string newsBrief=newsContent.Substring(0,10);
 Console.WriteLine(newsBrief);
 
@@ -81,7 +96,7 @@ Console.WriteLine(value);*/
 string result=value.Replace('a','c');
 Console.WriteLine(result);*/
 
-var template = "台積電,2021/05/10,520;up";
+/*var template = "台積電,2021/05/10,520;up";
 template = template.Replace(',', ';');
 var items = template.Split(";");
-Array.ForEach(items, Console.WriteLine);
+Array.ForEach(items, Console.WriteLine);*/
