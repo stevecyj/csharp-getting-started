@@ -49,7 +49,8 @@ Console.WriteLine(result);
 double result2 =10/4;
 Console.WriteLine(result2);*/
 
+// 一般的四捨五入
 decimal total=330M;
 decimal tax=total*0.05M;
-int result=(int)Math.Round(tax,MidpointRounding.AwayFromZero);
+int result = (int)Math.Round(tax, MidpointRounding.AwayFromZero);
 Console.WriteLine(result);
