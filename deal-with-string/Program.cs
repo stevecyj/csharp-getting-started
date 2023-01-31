@@ -1,16 +1,17 @@
-﻿void trimWhiteSpace(string originValue)
-{
-    if (originValue == null) originValue = string.Empty;
-
-    string trimLeft = originValue.TrimStart();
-    string trimRight = originValue.TrimEnd();
-    string trimResult = originValue.Trim();
-    
-    Console.WriteLine(trimLeft);
-    Console.WriteLine(trimRight);
-    Console.WriteLine(trimResult);
-}
-trimWhiteSpace("  abc def    ");
+﻿// void trimWhiteSpace(string originValue)
+// {
+//     if (originValue == null) originValue = string.Empty;
+//
+//     string trimLeft = originValue.TrimStart();
+//     string trimRight = originValue.TrimEnd();
+//     string trimResult = originValue.Trim();
+//     
+//     Console.WriteLine(trimLeft);
+//     Console.WriteLine(trimRight);
+//     Console.WriteLine(trimResult);
+// }
+// trimWhiteSpace("  abc def    ");
+// trimWhiteSpace(null);
 
 
 /*string newsContent = "衛生署今天下午將召開記者會, 今天本土確診人數0人, 境外移入確診人數0人, 請大家繼續保持下去, 隨時洗手";
