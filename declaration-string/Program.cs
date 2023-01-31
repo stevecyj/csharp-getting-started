@@ -1,4 +1,5 @@
-﻿string value1 = null;
+﻿/*
+string value1 = null;
 Console.WriteLine("null:" + string.IsNullOrEmpty(value1));
 
 var value2 = string.Empty;
@@ -9,6 +10,19 @@ Console.WriteLine(string.IsNullOrWhiteSpace(value2));
 
 var value3 = "   ";
 Console.WriteLine(string.IsNullOrWhiteSpace(value3));
+*/
+
+/*
+string sentence = "商品     數量     單價";
+string sentence2 = "印表機     1     3,500";
+Console.WriteLine(sentence);
+Console.WriteLine(sentence2);
+*/
+
+var sentence = "商品\t數量\t單價";
+var sentence2 = "印表機\t1\t3,500";
+Console.WriteLine(sentence);
+Console.WriteLine(sentence2);
 
 /*string path="d:\\mydocument\\file.txt";
 Console.WriteLine(path);
